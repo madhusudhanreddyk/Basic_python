@@ -1,0 +1,5 @@
+f = open("reddy.txt","a")
+f.write("the new line")
+f.close()
+f = open("reddy.txt","r")
+print(f.read())
